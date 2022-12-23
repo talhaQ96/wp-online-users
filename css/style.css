@@ -1,0 +1,16 @@
+table#wp_display_online_users {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table#wp_display_online_users td,
+table#wp_display_online_users th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table#wp_display_online_users tr:nth-child(even) {
+  background-color: #dddddd;
+}
